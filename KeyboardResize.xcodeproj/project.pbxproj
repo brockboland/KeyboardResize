@@ -21,6 +21,7 @@
 		4625D6801909EB4900F88DC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625D6621909EB4900F88DC4 /* UIKit.framework */; };
 		4625D6881909EB4900F88DC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4625D6861909EB4900F88DC4 /* InfoPlist.strings */; };
 		4625D68A1909EB4900F88DC4 /* KeyboardResizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625D6891909EB4900F88DC4 /* KeyboardResizeTests.m */; };
+		4625D6951909EBD500F88DC4 /* LBTKeyboardResizeIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625D6941909EBD500F88DC4 /* LBTKeyboardResizeIntention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4625D6851909EB4900F88DC4 /* KeyboardResizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardResizeTests-Info.plist"; sourceTree = "<group>"; };
 		4625D6871909EB4900F88DC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4625D6891909EB4900F88DC4 /* KeyboardResizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardResizeTests.m; sourceTree = "<group>"; };
+		4625D6931909EBD500F88DC4 /* LBTKeyboardResizeIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTKeyboardResizeIntention.h; sourceTree = "<group>"; };
+		4625D6941909EBD500F88DC4 /* LBTKeyboardResizeIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTKeyboardResizeIntention.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4625D6701909EB4900F88DC4 /* Main.storyboard */,
 				4625D6731909EB4900F88DC4 /* LBTViewController.h */,
 				4625D6741909EB4900F88DC4 /* LBTViewController.m */,
+				4625D6931909EBD500F88DC4 /* LBTKeyboardResizeIntention.h */,
+				4625D6941909EBD500F88DC4 /* LBTKeyboardResizeIntention.m */,
 				4625D6761909EB4900F88DC4 /* Images.xcassets */,
 				4625D6651909EB4900F88DC4 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4625D6951909EBD500F88DC4 /* LBTKeyboardResizeIntention.m in Sources */,
 				4625D6751909EB4900F88DC4 /* LBTViewController.m in Sources */,
 				4625D66B1909EB4900F88DC4 /* main.m in Sources */,
 				4625D66F1909EB4900F88DC4 /* LBTAppDelegate.m in Sources */,

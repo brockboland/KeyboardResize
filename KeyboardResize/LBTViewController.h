@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LBTViewController : UIViewController
+- (IBAction)doneEditing:(id)sender;
 
 @end

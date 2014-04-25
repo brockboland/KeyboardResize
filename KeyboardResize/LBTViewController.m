@@ -8,22 +8,12 @@
 
 #import "LBTViewController.h"
 
-@interface LBTViewController ()
-
-@end
-
 @implementation LBTViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// On tapping the Done button on the keyboard, hide it
+- (IBAction)doneEditing:(id)sender {
+  UITextField *field = sender;
+  [field resignFirstResponder];
 }
 
 @end
