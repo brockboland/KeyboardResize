@@ -26,7 +26,7 @@
 }
 
 
-- (void)keyboardWillSwitch:(NSNotification *)notification {
+-(void)keyboardWillSwitch:(NSNotification *)notification {
   NSDictionary *info = [notification userInfo];
   NSValue *kbFrame = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
 
