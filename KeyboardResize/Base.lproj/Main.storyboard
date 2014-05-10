@@ -73,7 +73,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <customObject id="66F-pn-0WG" customClass="LBTKeyboardResizeIntention">
                     <connections>
-                        <outlet property="bottomConstraint" destination="3qv-d6-ZEk" id="yvy-P8-mVq"/>
+                        <outlet property="bottomConstraint" destination="Abe-eD-Sby" id="7oJ-SG-AmQ"/>
                     </connections>
                 </customObject>
             </objects>
