@@ -26,6 +26,12 @@
 }
 
 
+-(void)dealloc {
+  // When this object goes away, stop trying to watch for keyboard changes
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
 -(void)keyboardWillSwitch:(NSNotification *)notification {
   NSDictionary *info = [notification userInfo];
   NSValue *kbFrame = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
